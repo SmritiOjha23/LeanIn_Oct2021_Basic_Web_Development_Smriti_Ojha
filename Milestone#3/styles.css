@@ -2,6 +2,11 @@ body
 {
     background:rgba(181, 219, 219, 0.849);
 }
+h3
+{
+    text-align: center;
+    font-size: 40px;
+}
 embed
 {
     height: 7em;
