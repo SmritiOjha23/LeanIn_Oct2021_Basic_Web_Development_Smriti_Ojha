@@ -1,0 +1,62 @@
+body
+{
+    background:rgba(181, 219, 219, 0.849);
+}
+embed
+{
+    height: 7em;
+    width:100em;
+}
+img
+{
+    height:600px;
+    display: inline;
+}
+#ele
+{
+    transition: 5s;
+}
+#header
+{
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: 0.2rem;
+}
+#map:hover
+{
+    box-shadow: 15px 15px 3px 10px black;
+    transform:translate(4);
+    transition:all 0.4s;
+}
+#chooser
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+h1
+{
+    font-size: 40px;
+}
+#main
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+#footer1
+{
+    height:300px;
+    width: auto;
+    font-size: 25px;
+    background: rgba(0, 0, 0);
+    color:blanchedalmond;
+    padding:25px;
+}
+button{
+    height:30px;
+    width:100px;
+}
+a
+{
+    font-size: 20px;
+    color:cornflowerblue
+}
