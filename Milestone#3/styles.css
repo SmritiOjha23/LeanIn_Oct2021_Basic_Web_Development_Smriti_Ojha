@@ -15,7 +15,7 @@ embed
 img
 {
     height:600px;
-    display: inline;
+    transform:translateX(50px);
 }
 #ele
 {
@@ -37,6 +37,11 @@ img
 {
     font-size: 40px;
     font-weight: bold;
+}
+select
+{
+    font-weight: bold;
+    font-size: 20px;
 }
 h1
 {
@@ -60,6 +65,8 @@ h1
 button{
     height:30px;
     width:100px;
+    font-weight: bold;
+    font-size: 20px;
 }
 a
 {
