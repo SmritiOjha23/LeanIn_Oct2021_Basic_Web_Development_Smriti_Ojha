@@ -32,6 +32,7 @@ img
     box-shadow: 15px 15px 3px 10px black;
     transform:translate(4);
     transition:all 0.4s;
+    cursor: pointer;
 }
 #chooser
 {
@@ -76,4 +77,11 @@ a
 {
     font-size: 20px;
     color:cornflowerblue
+}
+#main img:hover
+{
+    box-shadow: 15px 15px 3px 10px black;
+    transform:translate(4);
+    transition:all 0.4s;
+    cursor:pointer;
 }
