@@ -53,6 +53,10 @@ h1
 {
     font-size: 30px;
 }
+h2
+{
+    text-decoration: underline dotted;
+}
 #footer1
 {
     height:300px;
