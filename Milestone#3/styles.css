@@ -2,6 +2,22 @@ body
 {
     background:rgba(181, 219, 219, 0.849);
 }
+#ele{
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    overflow:hidden;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-right: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
 h3
 {
     text-align: center;
@@ -31,7 +47,24 @@ img
     transition:all 0.4s;
     cursor: pointer;
 }
-#dance{
+#dance1{
+    animation-duration: 15s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    overflow:hidden;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
+  #dance2{
     animation-duration: 15s;
     animation-name: slidein;
     animation-iteration-count: infinite;
