@@ -17,15 +17,12 @@ img
     height:600px;
     transform:translateX(50px);
 }
-#ele
-{
-    transition: 5s;
-}
 #header
 {
     font-weight: bold;
-    font-size: 6em;
+    font-size: 5.5em;
     letter-spacing: 0.2rem;
+    font-family: 'Luckiest Guy', cursive;
 }
 #map:hover
 {
@@ -33,6 +30,26 @@ img
     transform:translate(4);
     transition:all 0.4s;
     cursor: pointer;
+}
+#hawa
+{
+    height: 700px;
+    width: 900px;
+    background-color: rgba(255, 0, 221, 0.377);
+    height:600px;
+    transform:translateX(50px);
+    background-image: url("hawa2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#hawa:hover
+{
+    box-shadow: 15px 15px 3px 10px black;
+    transform:translate(4);
+    transition:all 0.4s;
+    cursor:pointer;
 }
 #chooser
 {
@@ -53,9 +70,11 @@ h1
 #main
 {
     font-size: 30px;
+    font-family: 'Satisfy', cursive;
 }
 h2
 {
+    font-size: 55px;
     text-decoration: underline dotted;
 }
 #footer1
