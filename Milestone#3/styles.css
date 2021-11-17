@@ -31,6 +31,23 @@ img
     transition:all 0.4s;
     cursor: pointer;
 }
+#dance{
+    animation-duration: 15s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    overflow:hidden;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
 #hawa
 {
     height: 700px;
@@ -79,12 +96,18 @@ h2
 }
 #footer1
 {
-    height:300px;
+    height:350px;
     width: auto;
     font-size: 25px;
     background: rgba(0, 0, 0);
     color:blanchedalmond;
     padding:25px;
+}
+#thanx
+{
+    font-size: 50px;
+    border:solid rgb(0, 255, 234);
+    font-family: 'Pacifico', cursive;
 }
 button{
     height:30px;
